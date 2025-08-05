@@ -1,5 +1,8 @@
 # BigData-WordCount
-A simple implementation of the WordCount program using the Hadoop MapReduce framework. This project demonstrates the basics of distributed data processing by counting word frequencies in a text dataset. It serves as a practical model to understand Hadoop’s MapReduce programming paradigm.
-{
-The Word Count program is a common example that shows how the MapReduce programming model works. It handles a big text file by breaking it into smaller parts. The Map part goes through each part and records every word with a count of 1. Then the Reduce part brings all those counts together to find out how many times each word appears. This simple program clearly shows how data can be processed at the same time using pairs of keys and values in systems that spread out the work.
-}
+
+# Overview
+
+This project shows a simple way to run the WordCount program using the Hadoop MapReduce framework. It helps you understand how data processing works in a distributed system by counting how often each word appears in a text file. This is a good example to learn about Hadoop's MapReduce approach.
+
+The WordCount program is a common example that explains how the MapReduce model functions.
+It takes a big text file and splits it into smaller parts. In the Map step, each part is checked, and every word is listed with a count of one. Then, in the Reduce step, these counts are added together to find out how many times each word appears overall. This simple program shows how data can be handled at the same time across many computers using key-value pairs.
